@@ -80,6 +80,10 @@ html::-webkit-scrollbar-thumb{
     content: 'Guilherme Teixeira';
     color: red;
   }
+  61%, 80%{
+    content: 'Portfólio';
+    color: yellow;
+  }
 }
 #navbar a{
   font-size: 1.8rem;
@@ -207,6 +211,10 @@ span{
     content: 'Streamer';
     color: red;
   }
+  61%, 80%{
+    content: 'Tatuador';
+    color: yellow;
+  }
 }
 @keyframes typing{
   10%, 15%,
@@ -282,6 +290,18 @@ span{
   margin: auto;
   bottom: 0;
   width: 100%;
+  border-radius: 20px;
+}
+.servicos-imgt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicos-imgt .imginfot{
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: 50%;
   border-radius: 20px;
 }
 
