@@ -571,7 +571,7 @@ footer .copyright{
 
 
 /* responsividade */
-@media(max-width:1285px){
+@media screen and (max-width:1450px){
   html{
     font-size: 55%;
   }
@@ -609,12 +609,7 @@ footer .copyright{
   }
 }
 
-@media screen and (max-width:1000px){
-  .inicio{
-    gap: 4rem;
-  }
-}
-@media screen and (max-width:1200px)
+@media screen and (max-width:1350px)
 {
   .inicio{
     flex-direction: column-reverse;
@@ -638,7 +633,7 @@ footer .copyright{
     right: 0;
     width: 100%;
     padding: 3%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     display: none;
     justify-content: center;
     flex-direction: column;
@@ -659,7 +654,14 @@ footer .copyright{
     border-bottom: 0.5rem solid var(--main-color);
   }
 }
-@media screen and (max-width:991px){
+
+@media screen and (max-width:1100px){
+  .inicio{
+    gap: 4rem;
+  }
+}
+
+@media screen and (max-width:1000px){
   section{
     padding: 10rem 3% 2rem;
   }
@@ -680,7 +682,8 @@ footer .copyright{
     padding: 2rem 3%;
   }
 }
-@media screen and (max-width:895px){
+
+@media screen and (max-width:995px){
   .servicos h2{
     margin-bottom: 3rem;
   }
@@ -688,6 +691,7 @@ footer .copyright{
     grid-template-columns: repeat(1,1fr);
   }
 }
+
 @media screen and (max-width:600px){
   .skills .container{
     margin: 0;
