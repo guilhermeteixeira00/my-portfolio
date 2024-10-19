@@ -236,6 +236,7 @@ span{
 
 .servicos {
   background: var(--second-bg-color);
+  overflow-y: hidden;
 }
 .heading{
   display: flex;
