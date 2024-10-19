@@ -78,10 +78,6 @@ html::-webkit-scrollbar-thumb{
   }
   41%, 60%{
     content: 'Guilherme Teixeira';
-    color: yellow;
-  }
-  61%, 80%{
-    content: 'Portfólio';
     color: red;
   }
 }
