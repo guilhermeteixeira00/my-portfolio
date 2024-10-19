@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
 
 *{
   margin: 0;
@@ -8,7 +8,7 @@
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 :root {
@@ -23,7 +23,6 @@ html {
 }
 body{
   background: var(--bg-color);
-  font-family: "Poppins", sans-serif;
   color: var(--text-color);
 }
 html::-webkit-scrollbar{
@@ -55,6 +54,7 @@ html::-webkit-scrollbar-thumb{
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
+  font-family: "Sixtyfour Convergence", sans-serif;
 }
 .logo:hover{
   transform: scale(1.1);
@@ -261,7 +261,7 @@ span{
 }
 .servicos-box:hover{
   background: transparent;
-  color: var(--text-color);
+  color: var(--main-color);
   transform: scale(1.03);
   border: 1px solid var(--main-color);
 }
@@ -278,12 +278,14 @@ span{
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
+  font-weight: bolder;
 }
 .servicos-info p{
   font-size: 1.6rem;
   font-weight: 400;
   max-height: 100px;
   margin: auto;
+  font-weight: bolder;
 }
 .servicos-img .imginfo{
   position: absolute;
@@ -397,7 +399,6 @@ span{
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
-  font-family: "Font Awesome\ 5 Free";
   color: black;
 }
 .aprendizado .left{
