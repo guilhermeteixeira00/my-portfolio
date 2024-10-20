@@ -16,6 +16,7 @@
   --second-bg-color: #161616;
   --text-color: snow;
   --main-color: rgb(0, 123, 123);
+  --second-color: rgb(47, 0, 123);
 }
 
 html {
@@ -23,6 +24,7 @@ html {
 }
 body{
   background: var(--bg-color);
+  font-family: "Poppins", sans-serif;
   color: var(--text-color);
 }
 html::-webkit-scrollbar{
@@ -38,15 +40,15 @@ html::-webkit-scrollbar-thumb{
 .header{
   position: fixed;
   top: 0;
-  left: 0;
   width: 100vw;
-  padding: 3rem 9%;
-  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem 15rem;
+  background: rgba(0, 0, 0, 0.9);
   filter: drop-shadow(10px);
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 1;
 }
 .logo{
   font-size: 3rem;
@@ -54,7 +56,6 @@ html::-webkit-scrollbar-thumb{
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
-  font-family: "Sixtyfour Convergence", sans-serif;
 }
 .logo:hover{
   transform: scale(1.1);
@@ -70,31 +71,35 @@ html::-webkit-scrollbar-thumb{
 @keyframes logo{
   0%, 20%{
     content: 'Guilherme Teixeira';
-    color: green;
+    color: var(--second-color);
   }
   21%, 40%{
     content: 'Portfólio';
-    color: blue;
+    color: var(--second-color);
   }
   41%, 60%{
     content: 'Guilherme Teixeira';
-    color: red;
+    color: var(--second-color);
   }
   61%, 80%{
     content: 'Portfólio';
-    color: yellow;
+    color: var(--second-color);
   }
 }
-#navbar a{
-  font-size: 1.8rem;
+nav {
+  display: flex;
+  gap: 3rem;
+}
+
+nav a{
   color: var(--text-color);
-  margin-left: 4rem;
   font-weight: 500;
+  font-size: 2rem;
   transition: 0.3s ease;
   border-bottom: 3px solid transparent;
 }
-#navbar a:hover,
-#navbar a.active{
+
+nav a:hover, nav a.active{
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
 }
@@ -135,16 +140,18 @@ span{
 }
 .inicio-img{
   border-radius: 30%;
+  transition: all 1s;
 }
 .inicio-img img{
   position: relative;
-  width: 32vw;
+  width: 40rem;
   border-radius: 20%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
+  transition: all 0.5s;
 }
 .inicio-img img:hover{
-  transform: scale(1.01);
+  transform: scale(1.05);
   filter: drop-shadow(0 0 25px var(--main-color));
 }
 .inicio-container p{
@@ -195,25 +202,25 @@ span{
 }
 .typing-text span::before{
   content: 'Software Developer';
-  color: var(--main-color);
+  color: var(--second-color);
   animation: words 20s infinite;
 }
 @keyframes words{
   0%, 20%{
     content: 'Web Developer';
-    color: green;
+    color: var(--second-color);
   }
   21%, 40%{
     content: 'Software Developer';
-    color: blue;
+    color: var(--second-color);
   }
   41%, 60%{
     content: 'Streamer';
-    color: red;
+    color: var(--second-color);
   }
   61%, 80%{
     content: 'Tatuador';
-    color: yellow;
+    color: var(--second-color);
   }
 }
 @keyframes typing{
@@ -261,7 +268,7 @@ span{
 }
 .servicos-box:hover{
   background: transparent;
-  color: var(--main-color);
+  color: var(--text-color);
   transform: scale(1.03);
   border: 1px solid var(--main-color);
 }
@@ -278,14 +285,12 @@ span{
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  font-weight: bolder;
 }
 .servicos-info p{
   font-size: 1.6rem;
   font-weight: 400;
   max-height: 100px;
   margin: auto;
-  font-weight: bolder;
 }
 .servicos-img .imginfo{
   position: absolute;
@@ -399,6 +404,7 @@ span{
   font-size: 1.89rem;
   text-align: center;
   font-weight: 600;
+  font-family: "Font Awesome\ 5 Free";
   color: black;
 }
 .aprendizado .left{
