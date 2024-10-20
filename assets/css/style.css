@@ -209,7 +209,7 @@ span{
   position: relative;
 }
 .typing-text span::before{
-  content: 'Software Developer';
+  content: 'Software Dev';
   color: var(--second-color);
   animation: words 20s infinite;
 }
