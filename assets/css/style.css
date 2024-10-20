@@ -17,6 +17,10 @@
   --text-color: snow;
   --main-color: rgb(0, 123, 123);
   --second-color: rgb(60, 0, 155);
+  --green: rgb(0, 255, 0);
+  --yellow: rgb(255, 255, 0);
+  --purple: rgb(160, 32, 240);
+  --orange: rgb(255, 165, 0);
 }
 
 html {
@@ -69,19 +73,19 @@ html::-webkit-scrollbar-thumb{
 @keyframes logo{
   0%, 20%{
     content: 'Guilherme Teixeira';
-    color: var(--second-color);
+    color: var(--green);
   }
   21%, 40%{
     content: 'Portfólio';
-    color: var(--second-color);
+    color: var(--yellow);
   }
   41%, 60%{
     content: 'Guilherme Teixeira';
-    color: var(--second-color);
+    color: var(--purple);
   }
   61%, 80%{
     content: 'Portfólio';
-    color: var(--second-color);
+    color: var(--orange);
   }
 }
 nav {
@@ -231,19 +235,19 @@ span{
 @keyframes words{
   0%, 20%{
     content: 'Web Developer';
-    color: var(--second-color);
+    color: var(--green);
   }
   21%, 40%{
     content: 'Software Dev';
-    color: var(--second-color);
+    color: var(--yellow);
   }
   41%, 60%{
     content: 'Streamer';
-    color: var(--second-color);
+    color: var(--purple);
   }
   61%, 80%{
     content: 'Tatuador';
-    color: var(--second-color);
+    color: var(--orange);
   }
 }
 @keyframes typing{
