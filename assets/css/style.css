@@ -674,6 +674,15 @@ footer .copyright{
   .servicos-container{
     grid-template-columns: repeat(1,1fr);
   }
+  .servicos-box{
+    height: 800px;
+  }
+  .skills .container .row{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width:600px){
