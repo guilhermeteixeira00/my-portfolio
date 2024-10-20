@@ -322,10 +322,66 @@ span{
   border-radius: 0 0 20px 20px;
 }
 
-/* skills section */
+/* projetos section */
 
-.skills{
+.projetos {
   background: var(--bg-color);
+  overflow-y: hidden;
+}
+.projetos-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+.projetos-box{
+  background-color: var(--main-color);
+  height: 550px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+}
+.projetos-box:hover{
+  background: transparent;
+  color: var(--second-color);
+  transform: scale(1.03);
+  border: 1px solid var(--main-color);
+}
+.projetos-info{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  top: 15px;
+}
+.projetos-info h4{
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+.projetos-info p{
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.projetos-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: -3px;
+}
+.projetos-img .projetosimginfo{
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+
+/* skills section */
+.skills{
+  background: var(--second-bg-color);
 }
 .skills .container{
   background: var(--main-color);
@@ -371,7 +427,7 @@ span{
 /* aprendizado section */
 
 .aprendizado{
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
