@@ -16,7 +16,7 @@
   --second-bg-color: #161616;
   --text-color: snow;
   --main-color: rgb(0, 123, 123);
-  --second-color: rgb(47, 0, 123);
+  --second-color: rgb(60, 0, 155);
 }
 
 html {
@@ -24,7 +24,6 @@ html {
 }
 body{
   background: var(--bg-color);
-  font-family: "Poppins", sans-serif;
   color: var(--text-color);
 }
 html::-webkit-scrollbar{
@@ -52,7 +51,7 @@ html::-webkit-scrollbar-thumb{
 }
 .logo{
   font-size: 3rem;
-  color: var(--main-color);
+  color: var(--second-color);
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
@@ -90,7 +89,6 @@ nav {
   display: flex;
   gap: 3rem;
 }
-
 nav a{
   color: var(--text-color);
   font-weight: 500;
@@ -98,7 +96,6 @@ nav a{
   transition: 0.3s ease;
   border-bottom: 3px solid transparent;
 }
-
 nav a:hover, nav a.active{
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
@@ -115,8 +112,15 @@ nav a:hover, nav a.active{
 }
 section{
   min-height: 100vh;
-  padding: 5rem 9% 5rem;
+  padding: 10rem 9% 5rem;
   overflow-x: hidden;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 100px;
+  padding-bottom: 2rem
 }
 .inicio{
   display: flex;
@@ -245,72 +249,53 @@ span{
   background: var(--second-bg-color);
   overflow-y: hidden;
 }
-.heading{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 100px;
-  padding-bottom: 2rem
-}
 .servicos-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
   gap: 2.5rem;
 }
 .servicos-box{
-  position: relative;
   background-color: var(--main-color);
   height: 550px;
-  border-radius: 3rem;
+  border-radius: 20px;
   cursor: pointer;
   transition: 0.3s ease;
+  position: relative;
 }
 .servicos-box:hover{
   background: transparent;
-  color: var(--text-color);
+  color: var(--second-color);
   transform: scale(1.03);
   border: 1px solid var(--main-color);
 }
-.servicos-box .servicos-info{
+.servicos-info{
+  position: absolute;
+  width: 100%;
+  height: 50%;
   display: flex;
   flex-direction: column;
-  text-align: left;
-  max-height: 200px;
-  justify-content: center;
   align-items: center;
-  padding: 2em;
+  justify-content: center;
+  padding: 2rem;
 }
 .servicos-info h4{
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .servicos-info p{
   font-size: 1.6rem;
   font-weight: 400;
-  max-height: 100px;
-  margin: auto;
+}
+.servicos-img{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: -3px;
 }
 .servicos-img .imginfo{
-  position: absolute;
-  display: flex;
-  margin: auto;
-  bottom: 0;
   width: 100%;
-  border-radius: 20px;
-}
-.servicos-imgt{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.servicos-imgt .imginfot{
-  position: absolute;
-  display: flex;
-  bottom: 0;
-  width: 50%;
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 /* skills section */
@@ -405,7 +390,7 @@ span{
   text-align: center;
   font-weight: 600;
   font-family: "Font Awesome\ 5 Free";
-  color: black;
+  color: var(--second-color);
 }
 .aprendizado .left{
   left: 0;
@@ -457,7 +442,7 @@ span{
 .aprendizado .content .tag h2{
   font-size: 2rem;
   font-weight: 600;
-  color: goldenrod;
+  color: var(--second-color);
 }
 .aprendizado .content .desc span{
   font-size: 2rem;
@@ -593,7 +578,7 @@ footer .copyright{
     width: 350px;
     height: 460px;
   }
-  .servicos-box .servicos-info{
+  /* .servicos-box .servicos-info{
     max-height: 200px;
     padding: 10px;
   }
@@ -614,7 +599,7 @@ footer .copyright{
   }
   .servicos-img .imginfo{
     width: 350px;
-  }
+  } */
 }
 
 @media screen and (max-width:1350px)
