@@ -435,7 +435,7 @@ span{
 .aprendizado .timeline{
   position: relative;
   max-width: 1200px;
-  margin: 0;
+  width: 100%;
 }
 .aprendizado .timeline::after{
   content: '';
@@ -483,7 +483,7 @@ span{
   height: 0;
   position: absolute;
   top: 22px;
-  width: 0;
+  /* width: 0; */
   z-index: 1;
   right: 30px;
   border: medium solid var(--main-color);
@@ -495,7 +495,7 @@ span{
   height: 0;
   position: absolute;
   top: 22px;
-  width: 0;
+  /* width: 0; */
   z-index: 1;
   left: 30px;
   border: medium solid var(--main-color);
@@ -775,6 +775,9 @@ footer .copyright{
   }
   .aprendizado .left::after{
     left: 15px;
+  }
+  .aprendizado .left::before{
+    width: 0%;
   }
   .aprendizado .right::after{
     left: 15px;
