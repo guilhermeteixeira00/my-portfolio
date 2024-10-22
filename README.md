@@ -8,7 +8,7 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ## PC
 <div style="display: inline_block">
-  <img align="center" alt="Gui-HTML" width="300" src="https://i.imgur.com/0tjGkJO.jpeg">
+  <img align="center" alt="Gui-HTML" width="600" src="https://i.imgur.com/0tjGkJO.jpeg">
 </div>
 
 ## ANDROID AND IOS
@@ -18,6 +18,6 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ## TABLET
 <div style="display: inline_block">
-  <img align="center" alt="Gui-HTML" width="200" src="https://i.imgur.com/N64ZF9r.jpeg">
+  <img align="center" alt="Gui-HTML" width="400" src="https://i.imgur.com/N64ZF9r.jpeg">
 </div>
 
