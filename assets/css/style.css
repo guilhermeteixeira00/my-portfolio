@@ -763,6 +763,11 @@ footer .copyright{
   .servicos-imgt{
     height: 55%;
     left: 25px;
+    bottom: -60px;
+  }
+  .imginfo{
+    height: 80%;
+    bottom: -50px;
   }
   .skills .container .row{
     grid-template-columns: repeat(2, 1fr);
@@ -776,9 +781,14 @@ footer .copyright{
   .servicos-container{
     grid-template-columns: repeat(1,1fr);
   }
+  .imginfo{
+    height: 80%;
+    bottom: -50px;
+  }
   .servicos-imgt{
     height: 55%;
     left: 25px;
+    bottom: -72px;
   }
   .skills .container{
     margin: 0;
