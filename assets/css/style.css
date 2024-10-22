@@ -302,24 +302,51 @@ span{
   padding: 2rem;
   top: 15px;
 }
-.servicos-info h4{
+.servicos-info h4,
+.servicos-infot h4{
   font-size: 2.5rem;
   font-weight: 800;
   padding-bottom: 1rem;
 }
-.servicos-info p{
+.servicos-info p,
+.servicos-infot p{
   font-size: 1.6rem;
   font-weight: 400;
 }
 .servicos-img{
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 50%;
   bottom: -3px;
 }
-.servicos-img .imginfo{
-  width: 100%;
+.imginfo{
+  position: relative;
+  height: 100%;
   border-radius: 0 0 20px 20px;
+}
+.servicos-infot{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  top: -15px;
+}
+.servicos-imgt{
+  position: absolute;
+  height: 58%;
+  bottom: 0;
+  left: 45px;
+  border-radius: 0 0 20px 20px;
+}
+.imginfotr{
+  border-radius: 0 0 20px 0;
+}
+.imginfotl{
+  border-radius: 0 0 0 20px;
 }
 
 /* projetos section */
@@ -733,6 +760,10 @@ footer .copyright{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
   }
+  .servicos-imgt{
+    height: 55%;
+    left: 25px;
+  }
   .skills .container .row{
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
@@ -744,6 +775,10 @@ footer .copyright{
 @media screen and (max-width:600px){
   .servicos-container{
     grid-template-columns: repeat(1,1fr);
+  }
+  .servicos-imgt{
+    height: 55%;
+    left: 25px;
   }
   .skills .container{
     margin: 0;
