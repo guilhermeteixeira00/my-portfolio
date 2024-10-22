@@ -6,12 +6,18 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ### Responsive Multi Platforms !
 
+## PC
 <div style="display: inline_block">
-  <p style="color: cyan">PC</p>
   <img align="center" alt="Gui-HTML" width="300" src="https://i.imgur.com/0tjGkJO.jpeg">
-  <p style="color: cyan">ANDROID AND IOS</p> 
+</div>
+
+## ANDROID AND IOS
+<div style="display: inline_block">
   <img align="center" alt="Gui-HTML" width="150" src="https://i.imgur.com/By5WbZM.jpeg">
-  <p style="color: cyan">TABLET</p>
+</div>
+
+## TABLET
+<div style="display: inline_block">
   <img align="center" alt="Gui-HTML" width="200" src="https://i.imgur.com/N64ZF9r.jpeg">
 </div>
 
