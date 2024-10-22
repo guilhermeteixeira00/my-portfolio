@@ -6,11 +6,11 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ### Responsive Multi Platforms !
 
-PC
+## PC
 ![](https://i.imgur.com/0tjGkJO.jpeg)
 
-ANDROID AND IOS 
+## ANDROID AND IOS 
 ![](https://i.imgur.com/By5WbZM.jpeg)
 
-TABLET
+## TABLET
 ![](https://i.imgur.com/N64ZF9r.jpeg)
