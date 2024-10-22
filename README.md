@@ -11,12 +11,8 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 
 ## ANDROID AND IOS
-<div style="display: inline_block">
-  <img align="center" alt="Gui-HTML" width="150" src="https://i.imgur.com/By5WbZM.jpeg">
-</div>
+<img align="center" alt="Gui-HTML" width="150" src="https://i.imgur.com/By5WbZM.jpeg">
 
 ## TABLET
-<div style="display: inline_block">
-  <img align="center" alt="Gui-HTML" width="400" src="https://i.imgur.com/N64ZF9r.jpeg">
-</div>
+<img align="center" alt="Gui-HTML" width="400" src="https://i.imgur.com/N64ZF9r.jpeg">
 
