@@ -9,7 +9,6 @@ A portfolio serves to present your skills, experiences and achievements in an or
 ## PC
 <img align="center" alt="Gui-HTML" width="600" src="https://i.imgur.com/0tjGkJO.jpeg">
 
-
 ## ANDROID AND IOS
 <img align="center" alt="Gui-HTML" width="150" src="https://i.imgur.com/By5WbZM.jpeg">
 
