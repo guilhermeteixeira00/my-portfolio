@@ -763,6 +763,9 @@ footer .copyright{
 }
 
 @media screen and (max-width: 900px){
+  #navbar{
+    flex-direction: row;
+  }
   .servicos-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
