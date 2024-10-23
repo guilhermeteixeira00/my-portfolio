@@ -13,5 +13,5 @@ A portfolio serves to present your skills, experiences and achievements in an or
 <img align="center" alt="Gui-HTML" width="150" src="https://i.imgur.com/By5WbZM.jpeg">
 
 ## TABLET
-<img align="center" alt="Gui-HTML" width="400" src="https://i.imgur.com/N64ZF9r.jpeg">
+<img align="center" alt="Gui-HTML" width="400" src="https://i.imgur.com/GnqjHRU.jpeg">
 
