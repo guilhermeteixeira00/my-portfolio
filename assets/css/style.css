@@ -301,7 +301,7 @@ span{
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  top: 15px;
+  top: 5px;
 }
 .servicos-info h4,
 .servicos-infot h4{
@@ -345,7 +345,6 @@ span{
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  top: 15px;
 }
 .servicos-imgt{
   position: relative;
