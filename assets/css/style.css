@@ -187,6 +187,7 @@ span{
 .typing-text span::before{
   content: 'Software Dev.';
   color: var(--second-color);
+  text-shadow: 1px 1px 10px var(--second-color);
   animation: words 20s infinite;
 }
 .typing-text span::after{
@@ -208,22 +209,22 @@ span{
   0%, 20%{
     content: 'Web Developer.';
     color: var(--green);
-    text-shadow: 1px 1px 20px var(--green);
+    text-shadow: 1px 1px 10px var(--green);
   }
   21%, 40%{
     content: 'Software Dev.';
     color: var(--yellow);
-    text-shadow: 1px 1px 20px var(--yellow);
+    text-shadow: 1px 1px 10px var(--yellow);
   }
   41%, 60%{
     content: 'Streamer.';
     color: var(--purple);
-    text-shadow: 1px 1px 20px var(--purple);
+    text-shadow: 1px 1px 10px var(--purple);
   }
   61%, 80%{
     content: 'Tatuador.';
     color: var(--orange);
-    text-shadow: 1px 1px 20px var(--orange);
+    text-shadow: 1px 1px 10px var(--orange);
   }
 }
 @keyframes typing{
