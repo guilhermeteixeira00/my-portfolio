@@ -58,35 +58,7 @@ html::-webkit-scrollbar-thumb{
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s ease;
-}
-.logo:hover{
-  transform: scale(1.1);
-}
-.logo span{
-  position: relative;
-}
-.logo span::before{
-  content: 'Portfólio';
-  color: var(--second-color);
-  animation: logo 20s infinite;
-}
-@keyframes logo{
-  0%, 20%{
-    content: 'Guilherme Teixeira';
-    color: var(--green);
-  }
-  21%, 40%{
-    content: 'Portfólio';
-    color: var(--yellow);
-  }
-  41%, 60%{
-    content: 'Guilherme Teixeira';
-    color: var(--purple);
-  }
-  61%, 80%{
-    content: 'Portfólio';
-    color: var(--orange);
-  }
+  color: var(--main-color);
 }
 nav {
   display: flex;
@@ -213,7 +185,7 @@ span{
   position: relative;
 }
 .typing-text span::before{
-  content: 'Software Dev';
+  content: 'Software Dev.';
   color: var(--second-color);
   animation: words 20s infinite;
 }
@@ -222,7 +194,7 @@ span{
   background: var(--bg-color);
   position: absolute;
   width: calc(100% + 8px);
-  height: 100%;
+  height: 120%;
   border-left: 3px solid var(--bg-color);
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
@@ -234,20 +206,24 @@ span{
 }
 @keyframes words{
   0%, 20%{
-    content: 'Web Developer';
+    content: 'Web Developer.';
     color: var(--green);
+    text-shadow: 1px 1px 20px var(--green);
   }
   21%, 40%{
-    content: 'Software Dev';
+    content: 'Software Dev.';
     color: var(--yellow);
+    text-shadow: 1px 1px 20px var(--yellow);
   }
   41%, 60%{
-    content: 'Streamer';
+    content: 'Streamer.';
     color: var(--purple);
+    text-shadow: 1px 1px 20px var(--purple);
   }
   61%, 80%{
-    content: 'Tatuador';
+    content: 'Tatuador.';
     color: var(--orange);
+    text-shadow: 1px 1px 20px var(--orange);
   }
 }
 @keyframes typing{
@@ -338,26 +314,14 @@ span{
   font-weight: 400;
 }
 .servicos-img{
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 50%;
+  height: auto;
   bottom: -3px;
 }
 .imginfo{
-  position: relative;
   width: 100%;
-  height: 100%;
   border-radius: 0 0 20px 20px;
-}
-.servicos-imgloading{
-  position: relative;
-  width: 100%;
-  height: 50%;
-  bottom: -3px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .servicos-infot{
   position: relative;
@@ -370,22 +334,27 @@ span{
   padding: 2rem;
 }
 .servicos-imgt{
+  position: absolute;
+  width: 100%;
+  left: 12%;
+  height: auto;
+  bottom: -3px;
+}
+.imginfotl{
+  width: 40%;
+}
+.imginfotr{
+  width: 33.6%;
+}
+.servicos-imgloading{
   position: relative;
   width: 100%;
   height: 50%;
   bottom: -3px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: rgba(0, 123, 123, 0.4);
-  border-radius: 0 0 20px 20px;
-}
-.imginfotl{
-  height: 100%;
-  border-radius: 0 0 0 20px;
-}
-.imginfotr{
-  height: 100%;
-  border-radius: 0 0 20px 0;
+  align-items: center;
 }
 
 /* projetos section */
@@ -414,7 +383,7 @@ span{
   border: 1px solid var(--second-color);
 }
 .projetos-info{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 50%;
   display: flex;
@@ -422,7 +391,7 @@ span{
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  top: 15px;
+  top: 5px;
 }
 .projetos-info h4{
   font-size: 2.5rem;
@@ -430,7 +399,7 @@ span{
   padding-bottom: 1rem;
 }
 .projetos-info p{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 .projetos-info p > span{
@@ -809,17 +778,25 @@ footer .copyright{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
   }
+  .servicos-box{
+    height: 480px;
+  }
+  .servicos-box:hover{
+    background-color: rgba(0, 123, 123, 0.4);
+    color: var(--text-color);
+  }
   .imginfo{
     height: 80%;
     bottom: -50px;
   }
+  .servicos-imgt{
+    bottom: 0;
+  }
   .imginfotr{
-    height: 80%;
-    bottom: -50px;
+    width: 35.3%;
   }
   .imginfotl{
-    height: 80%;
-    bottom: -50px;
+    width: 42%;
   }
   .servicos-imgloading{
     position: relative;
@@ -827,11 +804,6 @@ footer .copyright{
     height: 50%;
     left: 12%;
     bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
   }
   .loading{
     width: 60%;
@@ -839,6 +811,13 @@ footer .copyright{
   .projetos-container{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .projetos-box{
+    height: 480px;
+  }
+  .projetos-box:hover{
+    background-color: rgba(60, 0, 155, 0.4);
+    color: var(--text-color);
   }
   .projetovideo{
     height: 80%;
