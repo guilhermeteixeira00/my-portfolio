@@ -187,6 +187,7 @@ span{
 .typing-text span::before{
   content: 'Software Dev.';
   color: var(--second-color);
+  font-weight: bolder;
   text-shadow: 1px 1px 10px var(--second-color);
   animation: words 20s infinite;
 }
@@ -209,21 +210,25 @@ span{
   0%, 20%{
     content: 'Web Developer.';
     color: var(--green);
+    font-weight: bolder;
     text-shadow: 1px 1px 10px var(--green);
   }
   21%, 40%{
     content: 'Software Dev.';
     color: var(--yellow);
+    font-weight: bolder;
     text-shadow: 1px 1px 10px var(--yellow);
   }
   41%, 60%{
     content: 'Streamer.';
     color: var(--purple);
+    font-weight: bolder;
     text-shadow: 1px 1px 10px var(--purple);
   }
   61%, 80%{
     content: 'Tatuador.';
     color: var(--orange);
+    font-weight: bolder;
     text-shadow: 1px 1px 10px var(--orange);
   }
 }
@@ -691,6 +696,10 @@ footer .copyright{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
   }
+  .projetos-container{
+    padding-bottom: 7rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width:1350px)
@@ -768,15 +777,17 @@ footer .copyright{
   .footer{
     padding: 2rem 3%;
   }
+  .skills .container .row{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 900px){
   #navbar{
     flex-direction: row;
-  }
-  .servicos-container{
-    padding-bottom: 7rem;
-    grid-template-columns: repeat(2, 1fr);
   }
   .servicos-box{
     height: 480px;
@@ -799,18 +810,11 @@ footer .copyright{
     width: 42%;
   }
   .servicos-imgloading{
-    position: relative;
-    width: 100%;
-    height: 50%;
-    left: 12%;
-    bottom: 60px;
+    width: 50%;
+    left: 35%;
   }
   .loading{
     width: 60%;
-  }
-  .projetos-container{
-    padding-bottom: 7rem;
-    grid-template-columns: repeat(2, 1fr);
   }
   .projetos-box{
     height: 480px;
@@ -822,12 +826,6 @@ footer .copyright{
   .projetovideo{
     height: 80%;
     bottom: -50px;
-  }
-  .skills .container .row{
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
   }
 }
 
