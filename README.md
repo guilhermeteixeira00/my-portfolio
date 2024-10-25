@@ -6,12 +6,4 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ### Responsive Multi Platforms !
 
-## PC
-<img align="center" alt="Gui-HTML" width="600" src="https://i.imgur.com/0tjGkJO.jpeg">
-
-## ANDROID AND IOS
-<img align="center" alt="Gui-HTML" width="150" src="https://i.imgur.com/By5WbZM.jpeg">
-
-## TABLET
-<img align="center" alt="Gui-HTML" width="400" src="https://i.imgur.com/GnqjHRU.jpeg">
-
+![preview](https://github.com/user-attachments/assets/466ac5f4-768a-48aa-a4a2-975264c20448)
