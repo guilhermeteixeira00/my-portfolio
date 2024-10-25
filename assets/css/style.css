@@ -265,6 +265,29 @@ span{
     width: calc(100% + 8px);
   }
 }
+.aprendendo-text span::before{
+  content: 'JavaScript, PHP, UX.';
+  color: var(--second-color);
+  animation: cor 20s infinite;
+}
+@keyframes cor{
+  0%, 20%{
+    content: 'JavaScript, PHP, UX.';
+    color: var(--green);
+  }
+  21%, 40%{
+    content: 'JavaScript, PHP, UX.';
+    color: var(--yellow);
+  }
+  41%, 60%{
+    content: 'JavaScript, PHP, UX.';
+    color: var(--purple);
+  }
+  61%, 80%{
+    content: 'JavaScript, PHP, UX.';
+    color: var(--orange);
+  }
+}
 
 /* servicos section */
 
