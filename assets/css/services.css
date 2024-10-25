@@ -1,0 +1,88 @@
+.servicos {
+    background: var(--second-bg-color);
+    overflow-y: hidden;
+}
+.servicos-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.servicos-box{
+    background-color: rgba(0, 123, 123, 0.4);
+    height: 550px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    position: relative;
+}
+.servicos-box:hover{
+    background: transparent;
+    color: var(--main-color);
+    transform: scale(1.03);
+    border: 1px solid var(--main-color);
+}
+.servicos-info{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    top: 5px;
+}
+.servicos-info h4,
+.servicos-infot h4{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+.servicos-info p,
+.servicos-infot p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.servicos-img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: -3px;
+}
+.imginfo{
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+.servicos-infot{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.servicos-imgt{
+    position: absolute;
+    width: 100%;
+    left: 12%;
+    height: auto;
+    bottom: -3px;
+}
+.imginfotl{
+    width: 40%;
+}
+.imginfotr{
+    width: 33.6%;
+}
+.servicos-imgloading{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
