@@ -23,9 +23,7 @@
 }
 
 :root {
-  --bg-color-white: #cacaca; 
-  --second-bg-color-white: #797979;
-  --text-color-white: #000000;
+  --text-shadow: 2px 2px 10px black;
   --bg-color: #000000;
   --second-bg-color: #161616;
   --text-color: snow;
