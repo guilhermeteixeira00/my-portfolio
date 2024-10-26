@@ -1,6 +1,5 @@
 .contato{
     background: var(--second-bg-color);
-    overflow-x: hidden;
 }
 .contato h2{
     margin-bottom: 3rem;

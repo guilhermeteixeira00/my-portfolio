@@ -79,6 +79,9 @@ section{
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
   }
+  .contato{
+    padding-bottom: 7rem;
+  }
 }
 
 @media screen and (max-width:1350px)
@@ -86,6 +89,9 @@ section{
   .inicio{
     flex-direction: column-reverse;
     margin: 5rem 4rem;
+  }
+  .contato{
+    margin: 1rem;
   }
   .inicio .inicio-container h3{
     font-size: 2.5rem;
@@ -173,6 +179,9 @@ section{
   }
   .projetos{
     padding-bottom: 7rem;
+  }
+  .contato{
+    padding: 10rem 3% 2rem;
   }
   .header{
     padding: 2rem 3%;
