@@ -13,6 +13,10 @@ menuinicio.addEventListener('click', () => {
   menuskills.classList.remove('active');
   menuaprendizado.classList.remove('active');
   menuinicio.classList.add('active');
+  
+  closemenu.removeAttribute('style');
+  openmenu.removeAttribute('style');
+  navbar.removeAttribute('style');
 })
 
 menuservicos.addEventListener('click', () => {
@@ -21,6 +25,10 @@ menuservicos.addEventListener('click', () => {
   menuskills.classList.remove('active');
   menuaprendizado.classList.remove('active');
   menuservicos.classList.add('active');
+
+  closemenu.removeAttribute('style');
+  openmenu.removeAttribute('style');
+  navbar.removeAttribute('style');
 })
 
 menuprojetos.addEventListener('click', () => {
@@ -29,6 +37,10 @@ menuprojetos.addEventListener('click', () => {
   menuskills.classList.remove('active');
   menuaprendizado.classList.remove('active');
   menuprojetos.classList.add('active');
+
+  closemenu.removeAttribute('style');
+  openmenu.removeAttribute('style');
+  navbar.removeAttribute('style');
 })
 
 menuskills.addEventListener('click', () => {
@@ -37,6 +49,10 @@ menuskills.addEventListener('click', () => {
   menuprojetos.classList.remove('active');
   menuaprendizado.classList.remove('active');
   menuskills.classList.add('active');
+
+  closemenu.removeAttribute('style');
+  openmenu.removeAttribute('style');
+  navbar.removeAttribute('style');
 })
 
 menuaprendizado.addEventListener('click', () => {
@@ -45,6 +61,10 @@ menuaprendizado.addEventListener('click', () => {
   menuskills.classList.remove('active');
   menuservicos.classList.remove('active');
   menuaprendizado.classList.add('active');
+
+  closemenu.removeAttribute('style');
+  openmenu.removeAttribute('style');
+  navbar.removeAttribute('style');
 })
 
 openmenu.addEventListener('click', () => {

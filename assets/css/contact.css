@@ -1,3 +1,6 @@
+.contato{
+    background: var(--second-bg-color);
+}
 .contato h2{
     margin-bottom: 3rem;
     color: snow;

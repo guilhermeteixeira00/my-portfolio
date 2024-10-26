@@ -1,6 +1,5 @@
 let isDarkMode = true;
 
-
 function applyDarkMode() {
     const toggleDarkModeButton = document.getElementById("toggleDarkModeButton");
 
