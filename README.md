@@ -6,4 +6,8 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ### Responsive Multi Platforms !
 
-![preview](https://github.com/user-attachments/assets/466ac5f4-768a-48aa-a4a2-975264c20448)
+# Multi Theme (Dark and White) 
+
+![Imagem do WhatsApp de 2024-10-26 à(s) 13 35 59_43217eec](https://github.com/user-attachments/assets/c1912a7e-9400-432e-be66-eff12abc8b55)
+
+![Imagem do WhatsApp de 2024-10-26 à(s) 13 36 21_190c4c98](https://github.com/user-attachments/assets/2d8a8c8f-d310-48cc-bcf1-d7d4c6aee601)
