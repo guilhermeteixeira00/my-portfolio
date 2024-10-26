@@ -7,7 +7,7 @@ function applyDarkMode() {
         { /* parte dark mode */
         header.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
         slider.style.backgroundColor = "#4a4a4a";
-        navbar.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+        document.documentElement.style.setProperty('--bg-degrade', 'rgba(0, 0, 0, 0.9)');
         document.documentElement.style.setProperty('--bg-color', '#000000');
         document.documentElement.style.setProperty('--second-bg-color', '#161616');
         document.documentElement.style.setProperty('--text-color', 'snow');
@@ -15,7 +15,7 @@ function applyDarkMode() {
     { /* parte white mode */
         header.style.backgroundColor = "rgba(79, 79, 79, 0.9)";
         slider.style.backgroundColor = "#000000";
-        navbar.style.backgroundColor = "rgba(79, 79, 79, 0.9)";
+        document.documentElement.style.setProperty('--bg-degrade', 'rgba(79, 79, 79, 0.9)');
         document.documentElement.style.setProperty('--bg-color', '#cacaca');
         document.documentElement.style.setProperty('--second-bg-color', '#797979');
         document.documentElement.style.setProperty('--text-color', '#000000');
