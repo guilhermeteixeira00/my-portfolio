@@ -9,14 +9,12 @@
   <link rel="stylesheet" href="./assets/css/global.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
   <title>Portfolio Teixeira</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="1500">PortFolio</a>
-
-    <i class="fa-solid fa-bars" id="openmenu"></i>
-    <i class="fa-solid fa-x" id="closemenu"></i>
 
     <nav id="navbar">
       <a href="#inicio" class="inicio-nav" id="inicioo" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" class="active">Inicio</a>
@@ -26,6 +24,23 @@
       <a href="#aprendizado" class="aprendizado-nav" id="aprendizadoo" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Aprendizado</a>
       <!-- <a href="#contato" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contato</a> -->
     </nav>
+
+    <div class="navmob">
+      <i class="fa-solid fa-bars" id="openmenu"></i>
+      <i class="fa-solid fa-x" id="closemenu"></i>
+
+      <div class="switch-mode">
+        <i class="fa-solid fa-moon" id="lua"></i>
+        <label class="switch">
+          <input type="checkbox"
+          id="toggleDarkModeButton"
+          onclick="toggleDarkMode()"
+          >
+          <span class="slider round"></span>
+        </label>
+        <i class="fa-solid fa-sun" id="sol"></i>
+      </div>
+    </div>
   </header>
 
   <section class="inicio" id="inicio">
@@ -300,6 +315,7 @@
   
   <script src="./assets/js/relogio.js"></script>
   <script src="./assets/js/menu.js"></script>
+  <script src="assets/js/switchmodes.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({offset:0});

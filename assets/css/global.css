@@ -2,6 +2,7 @@
 
 /* styles */
 @import url('header.css');
+@import url('switch.css');
 @import url('home.css');
 @import url('services.css');
 @import url('projects.css');
@@ -22,6 +23,9 @@
 }
 
 :root {
+  --bg-color-white: #cacaca; 
+  --second-bg-color-white: #797979;
+  --text-color-white: #000000;
   --bg-color: #000000;
   --second-bg-color: #161616;
   --text-color: snow;
@@ -121,6 +125,37 @@ section{
     padding: 1rem;
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid var(--main-color);
+  }
+  .navmob{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+  }
+  #lua{
+    position: relative;
+    font-size: 1.8rem;
+    top: 5px;
+    padding: 4px;
+  }
+  #sol{
+      position: relative;
+      font-size: 1.8rem;
+      top: 5px;
+      padding: 4px;
+  }
+  .switch {
+    top: -5px;
+    width: 50px;
+    height: 25px;
+  }
+  .slider::before{
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
   }
 }
 

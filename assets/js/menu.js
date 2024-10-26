@@ -7,10 +7,6 @@ const menuprojetos = document.querySelector("#projetoss");
 const menuskills = document.querySelector("#skillss");
 const menuaprendizado = document.querySelector("#aprendizadoo");
 
-var path = window.location.pathname;
-var page = path.split("/").pop();
-console.log(page);
-
 menuinicio.addEventListener('click', () => {
   menuservicos.classList.remove('active');
   menuprojetos.classList.remove('active');
