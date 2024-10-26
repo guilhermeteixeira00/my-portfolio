@@ -7,6 +7,7 @@ const menuprojetos = document.querySelector("#projetoss");
 const menuskills = document.querySelector("#skillss");
 const menuaprendizado = document.querySelector("#aprendizadoo");
 const menucontato = document.querySelector("#contatoo");
+const menucontrateme = document.querySelector("#contatobtn");
 
 menuinicio.addEventListener('click', () => {
   menuservicos.classList.remove('active');
@@ -85,6 +86,15 @@ menucontato.addEventListener('click', () => {
   closemenu.removeAttribute('style');
   openmenu.removeAttribute('style');
   navbar.removeAttribute('style');
+})
+
+menucontrateme.addEventListener('click', () => {
+  menuinicio.classList.remove('active');
+  menuservicos.classList.remove('active');
+  menuprojetos.classList.remove('active');
+  menuaprendizado.classList.remove('active');
+  menuskills.classList.remove('active');
+  menucontato.classList.add('active');
 })
 
 openmenu.addEventListener('click', () => {
