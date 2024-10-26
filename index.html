@@ -60,7 +60,7 @@
         <a href="https://www.tiktok.com/@_te1xe1ra_" target="_blank" rel="external" data-aos="flip-up" data-aos-duration="1500" data-aos-delay="500"><i class="fa-brands fa-tiktok"></i></a>
       </div>
 
-      <a href="https://wa.me/+5561999647021/?text=Olá queria te contratar para um serviço !!" target="_blank" rel="external" class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">Contrate-me</a>
+      <a href="#contato" class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">Contrate-me</a>
     </div>
     <div class="inicio-img" data-aos="zoom-out" data-aos-duration="1500">
       <img src="assets/img/eu.JPG">
@@ -78,7 +78,7 @@
           </p>
         </div>
         <div class="servicos-img">
-          <a href="https://wa.me/+5561999647021/?text=Olá queria te contratar para fazer um site para min !" target="_blank" rel="external"><img src="./assets/img/serviços/htmldev.jpg" class="imginfo"></a>
+          <img src="./assets/img/serviços/htmldev.jpg" class="imginfo">
         </div>
       </div>
 
@@ -92,7 +92,7 @@
           </p>
         </div>
         <div class="servicos-img">
-          <a href="https://wa.me/+5561999647021/?text=Olá queria te contratar para configurar meu pc para live stream." target="_blank" rel="external"><img src="./assets/img/serviços/livestreamconfig.jpg" class="imginfo"></a>
+          <img src="./assets/img/serviços/livestreamconfig.jpg" class="imginfo">
         </div>
       </div>
 
@@ -103,7 +103,7 @@
           </p>
         </div>
         <div class="servicos-img">
-          <a href="https://wa.me/+5561999647021/?text=Olá queria te contratar para Otimizar meu Computador" target="_blank" rel="external"><img src="./assets/img/serviços/otimização.webp" class="imginfo"></a>
+          <img src="./assets/img/serviços/otimização.webp" class="imginfo">
         </div>
       </div>
 
@@ -113,7 +113,7 @@
           <p>O mod Zombie no Counter-Strike 1.6 é uma variação popular que transforma o clássico jogo de tiro em uma batalha entre humanos e zumbis. O objetivo principal é simples: os jogadores começam como humanos, mas um deles é transformado em zumbi no início da partida. O zumbi então precisa infectar os outros jogadores, transformando-os também em zumbis, enquanto os humanos tentam sobreviver até o fim da rodada.</p>
         </div>
         <div class="servicos-img">
-          <a href="https://wa.me/+5561999647021/?text=Olá queria te contratar para um serviço de CS 1.6 ZOMBIE." target="_blank" rel="external"><img src="./assets/img/serviços/cszombie.jpg" class="imginfo"></a>
+          <img src="./assets/img/serviços/cszombie.jpg" class="imginfo">
         </div>
       </div>
 
@@ -124,7 +124,7 @@
           </p>
         </div>
         <div class="servicos-imgt">
-          <a href="https://wa.me/+5561999647021/?text=Olá queria fazer um orçamento de tatuagem com você !" target="_blank" rel="external"><img src="./assets/img/serviços/tatto1.jpg" class="imginfotl"><img src="./assets/img/serviços/tatto2.jpg" class="imginfotr"></a>
+          <img src="./assets/img/serviços/tatto1.jpg" class="imginfotl"><img src="./assets/img/serviços/tatto2.jpg" class="imginfotr">
         </div>
       </div>
 
@@ -271,14 +271,41 @@
 
   <section class="contato" id="contato">
     <h2 class="heading">entre em contato<span>comigo</span></h2>
-    <form action="">
+    <form id="form">
       <div class="input-box">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="Number" placeholder="Seu numero de telefone" required>
-        <input type="text" placeholder="Assunto" required>
+        <input 
+        type="text" 
+        id="nome" 
+        name="name" 
+        placeholder="Name" 
+        required
+        >
+        <input 
+        type="email" 
+        id="email" 
+        placeholder="Email"
+        required
+        >
+        <input 
+        type="text" 
+        id="numero" 
+        placeholder="Seu numero de telefone com DD" 
+        required
+        >
+        <input 
+        type="text" 
+        id="assunto" 
+        placeholder="Assunto" 
+        required
+        >
       </div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+      <textarea 
+      type="text" 
+      id="mensagem" 
+      cols="30" 
+      rows="10" 
+      placeholder="Sua mensagem">
+      </textarea>
       <input type="submit" value="Enviar Mensagem" class="btn">
     </form>
   </section>
@@ -315,7 +342,8 @@
   
   <script src="./assets/js/relogio.js"></script>
   <script src="./assets/js/menu.js"></script>
-  <script src="assets/js/switchmodes.js"></script>
+  <script src="./assets/js/switchmodes.js"></script>
+  <script src="./assets/js/contato.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({offset:0});
