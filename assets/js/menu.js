@@ -6,12 +6,14 @@ const menuservicos = document.querySelector("#servicoss");
 const menuprojetos = document.querySelector("#projetoss");
 const menuskills = document.querySelector("#skillss");
 const menuaprendizado = document.querySelector("#aprendizadoo");
+const menucontato = document.querySelector("#contatoo");
 
 menuinicio.addEventListener('click', () => {
   menuservicos.classList.remove('active');
   menuprojetos.classList.remove('active');
   menuskills.classList.remove('active');
   menuaprendizado.classList.remove('active');
+  menucontato.classList.remove('active');
   menuinicio.classList.add('active');
   
   closemenu.removeAttribute('style');
@@ -24,6 +26,7 @@ menuservicos.addEventListener('click', () => {
   menuprojetos.classList.remove('active');
   menuskills.classList.remove('active');
   menuaprendizado.classList.remove('active');
+  menucontato.classList.remove('active');
   menuservicos.classList.add('active');
 
   closemenu.removeAttribute('style');
@@ -36,6 +39,7 @@ menuprojetos.addEventListener('click', () => {
   menuservicos.classList.remove('active');
   menuskills.classList.remove('active');
   menuaprendizado.classList.remove('active');
+  menucontato.classList.remove('active');
   menuprojetos.classList.add('active');
 
   closemenu.removeAttribute('style');
@@ -48,6 +52,7 @@ menuskills.addEventListener('click', () => {
   menuservicos.classList.remove('active');
   menuprojetos.classList.remove('active');
   menuaprendizado.classList.remove('active');
+  menucontato.classList.remove('active');
   menuskills.classList.add('active');
 
   closemenu.removeAttribute('style');
@@ -55,12 +60,27 @@ menuskills.addEventListener('click', () => {
   navbar.removeAttribute('style');
 })
 
+
 menuaprendizado.addEventListener('click', () => {
   menuinicio.classList.remove('active');
   menuprojetos.classList.remove('active');
   menuskills.classList.remove('active');
   menuservicos.classList.remove('active');
+  menucontato.classList.remove('active');
   menuaprendizado.classList.add('active');
+
+  closemenu.removeAttribute('style');
+  openmenu.removeAttribute('style');
+  navbar.removeAttribute('style');
+})
+
+menucontato.addEventListener('click', () => {
+  menuinicio.classList.remove('active');
+  menuservicos.classList.remove('active');
+  menuprojetos.classList.remove('active');
+  menuaprendizado.classList.remove('active');
+  menuskills.classList.remove('active');
+  menucontato.classList.add('active');
 
   closemenu.removeAttribute('style');
   openmenu.removeAttribute('style');
