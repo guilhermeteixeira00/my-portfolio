@@ -28,6 +28,8 @@ function applyDarkMode() {
     }
 }
 
+applyDarkMode();
+
 function toggleDarkMode(){
     isDarkMode = !isDarkMode;
     applyDarkMode();
