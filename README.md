@@ -10,4 +10,4 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 ![Imagem do WhatsApp de 2024-10-26 à(s) 13 35 59_43217eec](https://github.com/user-attachments/assets/c1912a7e-9400-432e-be66-eff12abc8b55)
 
-![Imagem do WhatsApp de 2024-10-26 à(s) 13 36 21_190c4c98](https://github.com/user-attachments/assets/2d8a8c8f-d310-48cc-bcf1-d7d4c6aee601)
+![Imagem do WhatsApp de 2024-10-26 à(s) 22 10 00_c7f6f6dc](https://github.com/user-attachments/assets/9bdfd274-f7f7-4bfa-bc48-6b36d920b462)
