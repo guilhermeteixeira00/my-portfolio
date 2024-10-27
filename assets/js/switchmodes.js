@@ -6,7 +6,6 @@ function applyDarkMode() {
     if(isDarkMode)
         { /* parte dark mode */
         header.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
-        slider.style.backgroundColor = "#4a4a4a";
         document.documentElement.style.setProperty('--degrade', 'rgba(0, 123, 123, 0.4)');
         document.documentElement.style.setProperty('--second-degrade', 'rgba(60, 0, 155, 0.8)');
         document.documentElement.style.setProperty('--main-color', 'rgb(0, 123, 123)');
@@ -18,7 +17,6 @@ function applyDarkMode() {
     } else
     { /* parte white mode */
         header.style.backgroundColor = "rgba(79, 79, 79, 0.9)";
-        slider.style.backgroundColor = "#000000";
         document.documentElement.style.setProperty('--degrade', 'rgba(255, 0, 0, 0.4)');
         document.documentElement.style.setProperty('--second-degrade', 'rgba(0, 255, 0, 0.8)');
         document.documentElement.style.setProperty('--main-color', 'rgba(123, 0, 0, 0.8)');
@@ -29,8 +27,6 @@ function applyDarkMode() {
         document.documentElement.style.setProperty('--silver', 'rgb(255, 255, 0)');
     }
 }
-
-applyDarkMode();
 
 function toggleDarkMode(){
     isDarkMode = !isDarkMode;

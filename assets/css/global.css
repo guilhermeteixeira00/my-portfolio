@@ -141,29 +141,6 @@ section{
     align-content: center;
     gap: 20px;
   }
-  #lua{
-    position: relative;
-    font-size: 1.8rem;
-    top: 5px;
-    padding: 4px;
-  }
-  #sol{
-      position: relative;
-      font-size: 1.8rem;
-      top: 5px;
-      padding: 4px;
-  }
-  .switch {
-    top: -5px;
-    width: 50px;
-    height: 25px;
-  }
-  .slider::before{
-    height: 20px;
-    width: 20px;
-    left: 2px;
-    bottom: 2px;
-  }
 }
 
 @media screen and (max-width:1100px){
