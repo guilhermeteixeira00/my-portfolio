@@ -19,7 +19,7 @@ function applyDarkMode() {
     { /* parte white mode */
         header.style.backgroundColor = "rgba(79, 79, 79, 0.9)";
         slider.style.backgroundColor = "#000000";
-        document.documentElement.style.setProperty('--degrade', 'rgba(123, 0, 0, 0.8)');
+        document.documentElement.style.setProperty('--degrade', 'rgb(123, 0, 0)');
         document.documentElement.style.setProperty('--second-degrade', 'rgba(0, 255, 0, 0.8)');
         document.documentElement.style.setProperty('--main-color', 'rgba(123, 0, 0, 0.8)');
         document.documentElement.style.setProperty('--bg-degrade', 'rgba(79, 79, 79, 0.9)');
