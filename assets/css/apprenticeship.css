@@ -13,7 +13,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background: cyan;
+    background: var(--main-color);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -42,7 +42,7 @@
     text-align: center;
     font-weight: 600;
     font-family: "Font Awesome\ 5 Free";
-    color: var(--second-color);
+    color: var(--second-degrade);
 }
 .aprendizado .left{
     left: 0;
@@ -92,11 +92,11 @@
 .aprendizado .content .tag h2{
     font-size: 2rem;
     font-weight: 600;
-    color: var(--second-color);
+    color: var(--second-degrade);
 }
 .aprendizado .content .desc span{
     font-size: 2rem;
-    color: rgb(82, 82, 82);
+    color: var(--silver);
 }
 .aprendizado .content .desc p{
     font-size: 2rem;

@@ -23,13 +23,20 @@
 }
 
 :root {
+  --degrade: rgba(0, 123, 123, 0.4);
+  --second-degrade: rgba(60, 0, 155, 0.8);
   --bg-degrade: rgba(0, 0, 0, 0.7);
-  --text-shadow: 2px 2px 10px black;
+
   --bg-color: #000000;
   --second-bg-color: #161616;
+
   --text-color: snow;
+  --text-shadow: 2px 2px 10px black;
+
   --main-color: rgb(0, 123, 123);
   --second-color: rgb(60, 0, 155);
+  
+  --silver: rgb(82, 82, 82);
   --green: rgb(0, 255, 0);
   --yellow: rgb(255, 255, 0);
   --purple: rgb(160, 32, 240);
