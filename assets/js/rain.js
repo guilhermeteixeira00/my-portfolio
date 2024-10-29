@@ -1,5 +1,5 @@
 function randomText(){
-    var text = ("10")
+    var text = ("01")
     letters = text[Math.floor(Math.random() * text.length)];
     return letters;
 }
@@ -9,8 +9,8 @@ function rain(){
     let e = document.createElement('div');
     e.classList.add('drop');
     cloud.appendChild(e);
-    let left = Math.floor(Math.random() * 200)
-    let size = Math.random() * 2.5;
+    let left = Math.floor(Math.random() * 100)
+    let size = Math.random() * 3.5;
     let duration = Math.random() *1;
 
     e.innerText = randomText();
@@ -25,4 +25,4 @@ function rain(){
 
 setInterval(() => {
     rain()
-},20);
+},60);

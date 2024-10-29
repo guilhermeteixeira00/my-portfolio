@@ -3,9 +3,9 @@
 }
 
 .cloud{
-    /* animation: animateColor 5s linear infinite; */
-    position: relative;
-    width: 100vw;
+    animation: animateColor 5s linear infinite;
+    position: absolute;
+    height: 100vh;
     max-width: 100vw;
     left: 0;
     top: 100px;
@@ -16,21 +16,21 @@
 }
 .cloud .drop{
     position: absolute;
-    height: 100vh;
-    line-height: 20px;
+    height: 60vh;
+    top: 0;
     color: var(--clr);
     transform-origin: bottom;
     animation: animate 2s linear infinite;
 }
 
-/* @keyframes animateColor{
+@keyframes animateColor{
     0%{
         filter: hue-rotate(0deg);
     }
     100%{
         filter: hue-rotate(360deg);
     }
-} */
+}
 @keyframes animate{
     0%{
         transform: translateY(0) scaleY(0);

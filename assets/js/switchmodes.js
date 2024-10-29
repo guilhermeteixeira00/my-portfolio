@@ -5,7 +5,8 @@ function applyDarkMode() {
 
     if(isDarkMode)
         { /* parte dark mode */
-        header.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+        header.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
+        document.documentElement.style.setProperty('--clr', '#0f0');
         document.documentElement.style.setProperty('--degrade', 'rgba(0, 123, 123, 0.4)');
         document.documentElement.style.setProperty('--second-degrade', 'rgba(60, 0, 155, 0.8)');
         document.documentElement.style.setProperty('--main-color', 'rgb(0, 123, 123)');
@@ -16,14 +17,15 @@ function applyDarkMode() {
         document.documentElement.style.setProperty('--silver', 'rgb(82, 82, 82)');
     } else
     { /* parte white mode */
-        header.style.backgroundColor = "rgba(79, 79, 79, 0.9)";
-        document.documentElement.style.setProperty('--degrade', 'rgba(255, 0, 0, 0.4)');
-        document.documentElement.style.setProperty('--second-degrade', 'rgba(0, 255, 0, 0.8)');
-        document.documentElement.style.setProperty('--main-color', 'rgba(123, 0, 0, 0.8)');
-        document.documentElement.style.setProperty('--bg-degrade', 'rgba(79, 79, 79, 0.9)');
-        document.documentElement.style.setProperty('--bg-color', '#cacaca');
-        document.documentElement.style.setProperty('--second-bg-color', '#797979');
-        document.documentElement.style.setProperty('--text-color', '#000000');
+        header.style.backgroundColor = "rgba(241, 250, 238, 0.5)";
+        document.documentElement.style.setProperty('--clr', 'red');
+        document.documentElement.style.setProperty('--degrade', 'rgba(29, 53, 87, 0.8)');
+        document.documentElement.style.setProperty('--second-degrade', 'rgba(230, 57, 70, 1.0)');
+        document.documentElement.style.setProperty('--main-color', '#1d3557');
+        document.documentElement.style.setProperty('--bg-degrade', 'rgba(0, 0, 0, 0.9)');
+        document.documentElement.style.setProperty('--bg-color', '#f1faee');
+        document.documentElement.style.setProperty('--second-bg-color', '#457b9d');
+        document.documentElement.style.setProperty('--text-color', 'black');
         document.documentElement.style.setProperty('--silver', 'rgb(255, 255, 0)');
     }
 }
