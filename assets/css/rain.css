@@ -2,15 +2,23 @@
     --clr: #0f0;
 }
 
-.container-rain{
-    position: absolute;
-    top: 38px;
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.cloud{
     animation: animateColor 5s linear infinite;
+    position: relative;
+    top: 100px;
+    z-index: 1000;
+    filter: drop-shadow(0 0 35px var(--clr));
 }
+.cloud .drop{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    line-height: 20px;
+    color: var(--clr);
+    transform-origin: bottom;
+    animation: animate 2s linear infinite;
+}
+
 @keyframes animateColor{
     0%{
         filter: hue-rotate(0deg);
@@ -18,22 +26,6 @@
     100%{
         filter: hue-rotate(360deg);
     }
-}
-
-.container-rain .cloud{
-    position: relative;
-    width: 100vw;
-    z-index: 1000;
-    filter: drop-shadow(0 0 35px var(--clr));
-}
-.container-rain .cloud .drop{
-    position: absolute;
-    top: 60px;
-    height: 60vh;
-    line-height: 20px;
-    color: var(--clr);
-    transform-origin: bottom;
-    animation: animate 2s linear infinite;
 }
 @keyframes animate{
     0%{
