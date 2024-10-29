@@ -25,4 +25,4 @@ function rain(){
 
 setInterval(() => {
     rain()
-},1);
+},20);
