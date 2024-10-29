@@ -9,12 +9,12 @@ function rain(){
     let e = document.createElement('div');
     e.classList.add('drop');
     cloud.appendChild(e);
-    let left = Math.floor(Math.random() * 100)
+    let left = Math.floor(Math.random() * 200)
     let size = Math.random() * 1.5;
     let duration = Math.random() *1;
 
     e.innerText = randomText();
-    e.style.left = left + 'vw';
+    e.style.left = left + 'em';
     e.style.fontSize = 0.5 + size + 'em';
     e.style.animationDuration = 1 + duration + 's';
 

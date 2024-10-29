@@ -5,13 +5,17 @@
 .cloud{
     animation: animateColor 5s linear infinite;
     position: relative;
+    width: 100vw;
+    max-width: 100vw;
+    left: 0;
     top: 100px;
     z-index: 1000;
     filter: drop-shadow(0 0 35px var(--clr));
+    display: flex;
+    flex-direction: column;
 }
 .cloud .drop{
     position: absolute;
-    width: 100vw;
     height: 60vh;
     line-height: 20px;
     color: var(--clr);
