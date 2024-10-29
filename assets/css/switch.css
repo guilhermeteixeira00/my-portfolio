@@ -40,7 +40,7 @@
 .switchlabel svg {
     position: absolute;
     width: 24px;
-    top: -385px;
+    top: 3px;
     z-index: 100;
 }
 .switchlabel svg.lua{

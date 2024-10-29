@@ -10,7 +10,7 @@ function rain(){
     e.classList.add('drop');
     cloud.appendChild(e);
     let left = Math.floor(Math.random() * 200)
-    let size = Math.random() * 1.5;
+    let size = Math.random() * 2.5;
     let duration = Math.random() *1;
 
     e.innerText = randomText();
