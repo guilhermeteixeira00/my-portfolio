@@ -186,9 +186,6 @@ section{
   #navbar{
     flex-direction: row;
   }
-  .cloud .drop{
-    height: 100vh;
-  }
   .servicos-box{
     height: 480px;
   }
