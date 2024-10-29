@@ -3,7 +3,7 @@
 }
 
 .cloud{
-    animation: animateColor 5s linear infinite;
+    /* animation: animateColor 5s linear infinite; */
     position: relative;
     width: 100vw;
     max-width: 100vw;
@@ -23,14 +23,14 @@
     animation: animate 2s linear infinite;
 }
 
-@keyframes animateColor{
+/* @keyframes animateColor{
     0%{
         filter: hue-rotate(0deg);
     }
     100%{
         filter: hue-rotate(360deg);
     }
-}
+} */
 @keyframes animate{
     0%{
         transform: translateY(0) scaleY(0);
