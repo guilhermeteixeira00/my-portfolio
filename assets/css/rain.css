@@ -1,60 +1,6 @@
-:root{
-    --clr: #0f0;
-}
-
-.cloud{
-    animation: animateColor 5s linear infinite;
+#canvas{
     position: absolute;
-    height: 100vh;
-    max-width: 100vw;
-    left: 0;
-    top: 100px;
-    z-index: 3;
-    filter: drop-shadow(0 0 35px var(--clr));
-    display: flex;
-    flex-direction: column;
-}
-.cloud .drop{
-    position: absolute;
-    height: 60vh;
     top: 0;
-    color: var(--clr);
-    transform-origin: bottom;
-    animation: animate 2s linear infinite;
+    left: 0;
+    z-index: -1;
 }
-
-@keyframes animateColor{
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }
-}
-@keyframes animate{
-    0%{
-        transform: translateY(0) scaleY(0);
-        transform-origin: top;
-    }
-    10%{
-        transform: translateY(0) scaleY(0.25);
-        transform-origin: top;
-    }
-    20%{
-        transform: translateY(0) scaleY(1);
-    }
-    70%{
-        transform: translateY(300px) scaleY(1);
-        transform-origin: bottom;
-    }
-    80%{
-        transform: translateY(300px) scaleY(1);
-        transform-origin: bottom;
-    }
-    70%{
-        transform: translateY(300px) scaleY(0);
-        transform-origin: bottom;
-        text-shadow: -180px 0 0 var(--clr), 180px 0 var(--clr);
-    }
-}
-

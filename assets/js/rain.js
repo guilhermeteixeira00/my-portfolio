@@ -1,28 +1,41 @@
-function randomText(){
-    var text = ("01")
-    letters = text[Math.floor(Math.random() * text.length)];
-    return letters;
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+
+var texts = '0123456789'.split('');
+
+var fontSize = 10;
+var columns = canvas.width/fontSize;       
+var drops = [];       
+for(var x = 0; x < columns; x++){
+    drops[x] = 1;
 }
 
-function rain(){
-    let cloud = document.querySelector('.cloud');
-    let e = document.createElement('div');
-    e.classList.add('drop');
-    cloud.appendChild(e);
-    let left = Math.floor(Math.random() * 100)
-    let size = Math.random() * 3.5;
-    let duration = Math.random() *1;
-
-    e.innerText = randomText();
-    e.style.left = left + 'em';
-    e.style.fontSize = 0.5 + size + 'em';
-    e.style.animationDuration = 1 + duration + 's';
-
-    setTimeout(function(){
-        cloud.removeChild(e)
-    },2000)
+function draw(){          
+    if(isDarkMode){
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+    }   
+    else{
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+    }
+    ctx.fillRect(0, 0, canvas.width, canvas.height); 
+    if(isDarkMode){          
+        ctx.fillStyle = '#0F0';
+    }
+    else{
+        ctx.fillStyle = 'red';
+    }
+    ctx.font = fontSize + 'px arial';           
+    for(var i = 0; i < drops.length; i++)
+    {
+        var text = texts[Math.floor(Math.random()*texts.length)];
+        ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+        if(drops[i]*fontSize > canvas.height || Math.random() > 0.95){
+            drops[i] = 0;
+        }
+        drops[i]++;
+    }
 }
-
-setInterval(() => {
-    rain()
-},60);
+setInterval(draw, 33);
