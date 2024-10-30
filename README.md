@@ -8,6 +8,6 @@ A portfolio serves to present your skills, experiences and achievements in an or
 
 # Multi Theme (Dark and Light) 
 
-![Imagem do WhatsApp de 2024-10-26 à(s) 13 35 59_43217eec](https://github.com/user-attachments/assets/c1912a7e-9400-432e-be66-eff12abc8b55)
+![Imagem do WhatsApp de 2024-10-29 à(s) 21 09 56_8839dbb8](https://github.com/user-attachments/assets/67fffe32-48a9-4e78-917b-0fc02783a37e)
 
-![Imagem do WhatsApp de 2024-10-26 à(s) 22 10 00_c7f6f6dc](https://github.com/user-attachments/assets/9bdfd274-f7f7-4bfa-bc48-6b36d920b462)
+![Imagem do WhatsApp de 2024-10-29 à(s) 21 10 12_c5fbf03f](https://github.com/user-attachments/assets/48a1e101-a5d5-4398-a0d9-0d32fa76c9bb)
