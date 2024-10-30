@@ -18,7 +18,7 @@ function draw(){
         ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
     }   
     else{
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+        ctx.fillStyle = 'rgba(241, 250, 238, 0.05)';
     }
     ctx.fillRect(0, 0, canvas.width, canvas.height); 
     if(isDarkMode){          
