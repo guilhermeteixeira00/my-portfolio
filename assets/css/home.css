@@ -93,7 +93,7 @@ span{
 }
 @keyframes words{
     0%, 20%{
-        content: 'Web Developer.';
+        content: 'Full Stack';
         color: var(--green);
     }
     21%, 40%{
