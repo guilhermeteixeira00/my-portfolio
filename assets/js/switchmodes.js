@@ -10,7 +10,7 @@ function applyDarkMode() {
         document.documentElement.style.setProperty('--degrade', 'rgba(0, 123, 123, 0.4)');
         document.documentElement.style.setProperty('--second-degrade', 'rgba(60, 0, 155, 0.8)');
         document.documentElement.style.setProperty('--main-color', 'rgb(0, 123, 123)');
-        document.documentElement.style.setProperty('--bg-degrade', 'rgba(0, 0, 0, 0.9)');
+        document.documentElement.style.setProperty('--bg-degrade', 'rgba(0, 0, 0, 0.7)');
         document.documentElement.style.setProperty('--bg-color', '#000000');
         document.documentElement.style.setProperty('--second-bg-color', '#161616');
         document.documentElement.style.setProperty('--text-color', 'snow');
@@ -22,7 +22,7 @@ function applyDarkMode() {
         document.documentElement.style.setProperty('--degrade', 'rgba(29, 53, 87, 0.8)');
         document.documentElement.style.setProperty('--second-degrade', 'rgba(230, 57, 70, 1.0)');
         document.documentElement.style.setProperty('--main-color', '#1d3557');
-        document.documentElement.style.setProperty('--bg-degrade', 'rgba(0, 0, 0, 0.9)');
+        document.documentElement.style.setProperty('--bg-degrade', 'rgba(241, 250, 238, 0.5)');
         document.documentElement.style.setProperty('--bg-color', '#f1faee');
         document.documentElement.style.setProperty('--second-bg-color', '#457b9d');
         document.documentElement.style.setProperty('--text-color', 'black');
