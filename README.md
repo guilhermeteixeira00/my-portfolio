@@ -2,10 +2,6 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=DM+Serif+Text&weight=800&size=28&pause=1000&color=007B7B&width=435&lines=welcome+to+my+portfolio+!;My+name+is+Guilherme+Teixeira" alt="Typing SVG" /></a>
 </div>
 
-## Link Portfolio
-
-- https://guilhermeteixeira00.github.io/my-portfolio/#
-
 ## What is a portfolio and what is it for?
 
 <p align="center">A portfolio serves to present your skills, experiences and achievements in an organized and attractive way. It is especially useful in creative areas such as design, art, photography and marketing, but can be advantageous in many professions.
