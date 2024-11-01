@@ -2,7 +2,7 @@
 
 ## Link Portfolio
 
-- https://guilhermeteixeira00.github.io/my-portfolio
+- https://guilhermeteixeira00.github.io/my-portfolio/
 
 ## What is a portfolio and what is it for?
 
