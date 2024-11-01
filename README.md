@@ -2,8 +2,6 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=DM+Serif+Text&pause=1000&color=007B7B&width=435&lines=welcome+to+my+portfolio+!" alt="Typing SVG" /></a>
 </div>
 
-#
-
 ## Link Portfolio
 
 - https://guilhermeteixeira00.github.io/my-portfolio/#
