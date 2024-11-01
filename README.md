@@ -2,7 +2,7 @@
 
 ## Link Portfolio
 
-<a href="https://guilhermeteixeira00.github.io/my-portfolio/" target="_Blank"></a>
+<a href="https://guilhermeteixeira00.github.io/my-portfolio/">
 
 ## What is a portfolio and what is it for?
 
