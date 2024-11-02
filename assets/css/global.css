@@ -24,37 +24,6 @@
 }
 
 :root {
-  /* theme Dark */
-  /* --header: rgba(0, 0, 0, 0.9);
-  --degrade: rgba(0, 123, 123, 0.4);
-  --second-degrade: rgba(60, 0, 155, 0.8);
-  --bg-degrade: rgba(0, 0, 0, 0.7);
-
-  --bg-color: #000000;
-  --second-bg-color: #161616;
-
-  --text-color: snow;
-  --text-shadow: 2px 2px 10px black;
-
-  --main-color: rgb(0, 123, 123);
-  --second-color: rgb(60, 0, 155); */
-
-  /* theme light */
-  
-  /* --header: rgba(241, 250, 238, 0.5);
-  --degrade: #e63946;
-  --second-degrade:  #1d3557;
-  --bg-degrade: rgba(0, 0, 0, 0.7);
-
-  --bg-color: #f1faee;
-  --second-bg-color: #457b9d;
-
-  --text-color: black;
-  --text-shadow: 2px 2px 10px snow;
-
-  --main-color: #e63946;
-  --second-color: #1d3557; */
-  
   --silver: rgb(82, 82, 82);
   --green: rgb(0, 255, 0);
   --yellow: rgb(255, 255, 0);
