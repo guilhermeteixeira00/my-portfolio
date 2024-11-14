@@ -1,88 +1,92 @@
 .servicos {
-    background: var(--second-bg-color);
-    overflow-y: hidden;
+  background: var(--second-bg-color);
+  overflow-y: hidden;
 }
-.servicos-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+.servicos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
-.servicos-box{
-    background-color: var(--degrade);
-    height: 550px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    position: relative;
+.servicos-box {
+  background-color: var(--degrade);
+  height: 550px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
-.servicos-box:hover{
-    background: transparent;
-    color: var(--main-color);
-    transform: scale(1.03);
-    border: 1px solid var(--main-color);
+.servicos-box:hover {
+  background: transparent;
+  color: var(--main-color);
+  transform: scale(1.03);
+  border: 1px solid var(--main-color);
 }
-.servicos-info{
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    top: 5px;
+.servicos-info {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  top: 5px;
 }
 .servicos-info h4,
-.servicos-infot h4{
-    font-size: 2.5rem;
-    font-weight: 800;
-    padding-bottom: 1rem;
+.servicos-infot h4 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
 }
 .servicos-info p,
-.servicos-infot p{
-    font-size: 1.6rem;
-    font-weight: 400;
+.servicos-infot p {
+  font-size: 1.6rem;
+  font-weight: 400;
 }
-.servicos-img{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    bottom: -3px;
+.servicos-img {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  bottom: 0px;
 }
-.imginfo{
-    width: 100%;
-    border-radius: 0 0 20px 20px;
+.imginfo {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 20px 20px;
 }
-.servicos-infot{
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
+.servicos-infot {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  top: 5px;
 }
-.servicos-imgt{
-    position: absolute;
-    width: 100%;
-    left: 12%;
-    height: auto;
-    bottom: -3px;
+.servicos-imgt {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
 }
-.imginfotl{
-    width: 40%;
+.imginfotl {
+  width: 40%;
+  height: 100%;
 }
-.imginfotr{
-    width: 33.6%;
+.imginfotr {
+  width: 33.6%;
+  height: 100%;
 }
-.servicos-imgloading{
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    bottom: -3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.servicos-imgloading {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: -3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

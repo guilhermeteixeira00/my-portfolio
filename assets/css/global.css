@@ -178,10 +178,6 @@ section {
   .projetos-container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .imginfo {
-    height: 80%;
-    bottom: -50px;
-  }
   .skills .container {
     margin: 0;
     padding: 0;
@@ -235,10 +231,6 @@ section {
   .projetos-box:hover {
     background-color: rgba(60, 0, 155, 0.4);
     color: var(--text-color);
-  }
-  .projetovideo {
-    height: 80%;
-    bottom: -50px;
   }
   .boxachievements {
     display: flex;
