@@ -116,7 +116,7 @@ a:hover {
     display: block;
     width: 410px;
     position: relative;
-    height: 0.1px;
+    height: 1px;
     bottom: -10px;
 }
 
