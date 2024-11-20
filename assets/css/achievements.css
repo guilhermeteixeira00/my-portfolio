@@ -8,7 +8,7 @@
 }
 
 .background{
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100vw;
     height: 100vh;
@@ -50,7 +50,7 @@
 }
 
 .boxgalaxybrain .info h3{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #f0f6fc;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@
 
 .boxgalaxybrain .info p{
     margin-top: 4px;
-    font-size: 14px;
+    font-size: 1.5rem;
     color: snow;
 }
 

@@ -259,12 +259,12 @@ section {
     font-weight: 500;
   }
   .boxgalaxybrain .card{
-    width: 380px;
+    width: 350px;
   }
   .boxgalaxybrain .info{
-    width: 380px;
+    width: 350px;
   }
   .title::before{
-    width: 345px;
+    width: 320px;
   }
 }
