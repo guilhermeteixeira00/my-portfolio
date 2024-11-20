@@ -99,7 +99,7 @@ a:hover {
     fill: #9198a1;
 }
 
-.timeline::before{
+.timeline::after{
     background-color: #9198a1;
     bottom: 12px;
     content: '';
@@ -110,7 +110,7 @@ a:hover {
     height: 15%;
 }
 
-.title::before{
+.title::after{
     background-color: #9198a1;
     content: '';
     display: block;

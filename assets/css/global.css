@@ -264,7 +264,7 @@ section {
   .boxgalaxybrain .info{
     width: 350px;
   }
-  .title::before{
+  .title::after{
     width: 320px;
   }
   .boxpairextraordinaire .card{
