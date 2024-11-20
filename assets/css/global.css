@@ -4,6 +4,7 @@
 @import url("header.css");
 @import url("switch.css");
 @import url("rain.css");
+@import url("achievements.css");
 @import url("home.css");
 @import url("services.css");
 @import url("projects.css");
@@ -256,5 +257,14 @@ section {
   .inicio-container p {
     font-size: 1.8rem;
     font-weight: 500;
+  }
+  .boxgalaxybrain .card{
+    width: 380px;
+  }
+  .boxgalaxybrain .info{
+    width: 380px;
+  }
+  .title::before{
+    width: 345px;
   }
 }

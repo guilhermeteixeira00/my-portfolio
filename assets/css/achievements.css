@@ -1,0 +1,136 @@
+#card1{
+    display: none;
+}
+
+#galaxybrain, #pairextraordinaire, #pullshark,
+#quickdraw, #yolo{
+    cursor: pointer;
+}
+
+.background{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+}
+
+.boxgalaxybrain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.boxgalaxybrain .card{
+    position: relative;
+    width: 448px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    background-image: url(../img/Achievements\ Github/galaxy-brain-detail.png);
+}
+
+.boxgalaxybrain .card > img{
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+}
+
+.boxgalaxybrain .info{
+    width: 448px;
+    height: 206px;
+    padding: 16px;
+    border-radius: 0 0 6px 6px;
+    background: radial-gradient(#151b23, #0d1117);
+}
+
+.boxgalaxybrain .info h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+.boxgalaxybrain .info p{
+    margin-top: 4px;
+    font-size: 14px;
+    color: snow;
+}
+
+.link{
+    position: absolute;
+    bottom: 20px;
+    color: #9198a1;
+}
+
+a{
+    color: #4493f8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.unlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.linkref{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.timeline{
+    fill: #9198a1;
+}
+
+.timeline::before{
+    background-color: #9198a1;
+    bottom: 12px;
+    content: '';
+    display: block;
+    left: 7px;
+    position: absolute;
+    width: 2px;
+    height: 15%;
+}
+
+.title::before{
+    background-color: #9198a1;
+    content: '';
+    display: block;
+    width: 410px;
+    position: absolute;
+    height: 0.1px;
+    bottom: 130px;
+}
+
+.boxsair{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #3d444d;
+    border-radius: 6px;
+    z-index: 100;
+}
+.boxsair i{
+    font-size: 1.5rem;
+    color: snow;
+    cursor: pointer;
+}
