@@ -115,9 +115,9 @@ a:hover {
     content: '';
     display: block;
     width: 410px;
-    position: absolute;
+    position: relative;
     height: 0.1px;
-    bottom: 130px;
+    bottom: -10px;
 }
 
 .boxsair{
