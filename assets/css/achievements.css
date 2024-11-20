@@ -1,4 +1,4 @@
-#card1{
+#card1, #card2, #card3, #card4, #card5{
     display: none;
 }
 
@@ -58,14 +58,13 @@
 
 .boxgalaxybrain .info p{
     margin-top: 4px;
-    font-size: 1.5rem;
-    color: snow;
+    font-size: 1.1rem;
+    color: #9198a1;
 }
 
 .link{
     position: absolute;
     bottom: 20px;
-    color: #9198a1;
 }
 
 a{
@@ -81,6 +80,11 @@ a:hover {
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    fill: #9198a1;
+}
+
+.unlock > p{
+    color: #9198a1;
 }
 
 .linkref{
@@ -89,6 +93,7 @@ a:hover {
     align-items: center;
     text-align: center;
     gap: 10px;
+    fill: #9198a1;
 }
 
 .timeline{
@@ -130,6 +135,294 @@ a:hover {
     z-index: 100;
 }
 .boxsair i{
+    font-size: 1.5rem;
+    color: snow;
+    cursor: pointer;
+}
+
+/* Pair Extraordinaire */
+
+.boxpairextraordinaire{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.boxpairextraordinaire .card{
+    position: relative;
+    width: 448px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    background-image: url(../img/Achievements\ Github/pair-extraordinaire-detail.png);
+}
+
+.boxpairextraordinaire .card > img{
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+}
+
+.boxpairextraordinaire .info{
+    width: 448px;
+    height: 206px;
+    padding: 16px;
+    border-radius: 0 0 6px 6px;
+    background: radial-gradient(#151b23, #0d1117);
+}
+
+.boxpairextraordinaire .info h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+.boxpairextraordinaire .info p{
+    margin-top: 4px;
+    font-size: 1.1rem;
+    color: #9198a1;
+}
+
+.boxpairextraordinaire .info p span{
+    color: #9198a1;
+}
+
+.boxsair2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #3d444d;
+    border-radius: 6px;
+    z-index: 100;
+}
+.boxsair2 i{
+    font-size: 1.5rem;
+    color: snow;
+    cursor: pointer;
+}
+
+/* Pull Shark */
+
+.boxpullshark{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.boxpullshark .card{
+    position: relative;
+    width: 448px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    background-image: url(../img/Achievements\ Github/pull-shark-detail.png);
+}
+
+.boxpullshark .card > img{
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+}
+
+.boxpullshark .info{
+    width: 448px;
+    height: 206px;
+    padding: 16px;
+    border-radius: 0 0 6px 6px;
+    background: radial-gradient(#151b23, #0d1117);
+}
+
+.boxpullshark .info h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+.boxpullshark .info p{
+    margin-top: 4px;
+    font-size: 1.1rem;
+    color: #9198a1;
+}
+
+.boxpullshark .info p span{
+    color: #9198a1;
+}
+
+.boxsair3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #3d444d;
+    border-radius: 6px;
+    z-index: 100;
+}
+.boxsair3 i{
+    font-size: 1.5rem;
+    color: snow;
+    cursor: pointer;
+}
+
+/* Quick Draw */
+
+.boxquickdraw{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.boxquickdraw .card{
+    position: relative;
+    width: 448px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    background-image: url(../img/Achievements\ Github/quickdraw-detail.png);
+}
+
+.boxquickdraw .card > img{
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+}
+
+.boxquickdraw .info{
+    width: 448px;
+    height: 206px;
+    padding: 16px;
+    border-radius: 0 0 6px 6px;
+    background: radial-gradient(#151b23, #0d1117);
+}
+
+.boxquickdraw .info h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+.boxquickdraw .info p{
+    margin-top: 4px;
+    font-size: 1.1rem;
+    color: #9198a1;
+}
+
+.boxquickdraw .info p span{
+    color: #9198a1;
+}
+
+.boxsair4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #3d444d;
+    border-radius: 6px;
+    z-index: 100;
+}
+.boxsair4 i{
+    font-size: 1.5rem;
+    color: snow;
+    cursor: pointer;
+}
+
+/* Yolo */
+
+.boxyolo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.boxyolo .card{
+    position: relative;
+    width: 448px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px 6px 0 0;
+    background-image: url(../img/Achievements\ Github/quickdraw-detail.png);
+}
+
+.boxyolo .card > img{
+    width: 180px;
+    height: 180px;
+    padding: 16px;
+}
+
+.boxyolo .info{
+    width: 448px;
+    height: 206px;
+    padding: 16px;
+    border-radius: 0 0 6px 6px;
+    background: radial-gradient(#151b23, #0d1117);
+}
+
+.boxyolo .info h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+.boxyolo .info p{
+    margin-top: 4px;
+    font-size: 1.1rem;
+    color: #9198a1;
+}
+
+.boxyolo .info p span{
+    color: #9198a1;
+}
+
+.boxsair5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #3d444d;
+    border-radius: 6px;
+    z-index: 100;
+}
+.boxsair5 i{
     font-size: 1.5rem;
     color: snow;
     cursor: pointer;

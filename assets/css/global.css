@@ -267,4 +267,28 @@ section {
   .title::before{
     width: 320px;
   }
+  .boxpairextraordinaire .card{
+    width: 350px;
+  }
+  .boxpairextraordinaire .info{
+    width: 350px;
+  }
+  .boxpullshark .card{
+    width: 350px;
+  }
+  .boxpullshark .info{
+    width: 350px;
+  }
+  .boxquickdraw .card{
+    width: 350px;
+  }
+  .boxquickdraw .info{
+    width: 350px;
+  }
+  .boxyolo .card{
+    width: 350px;
+  }
+  .boxyolo .info{
+    width: 350px;
+  }
 }
