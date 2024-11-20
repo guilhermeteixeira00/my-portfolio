@@ -273,6 +273,10 @@ section {
   .boxpairextraordinaire .info{
     width: 350px;
   }
+  .boxpairextraordinaire .info p{
+    margin-top: 0px;
+    font-size: 1rem;
+  }
   .boxpullshark .card{
     width: 350px;
   }
@@ -285,10 +289,18 @@ section {
   .boxquickdraw .info{
     width: 350px;
   }
+  .boxquickdraw .info p{
+    margin-top: 0px;
+    font-size: 1rem;
+  }
   .boxyolo .card{
     width: 350px;
   }
   .boxyolo .info{
     width: 350px;
+  }
+  .boxyolo .info p{
+    margin-top: 0px;
+    font-size: 1rem;
   }
 }
