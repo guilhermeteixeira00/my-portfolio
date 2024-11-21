@@ -95,11 +95,11 @@ a:hover {
     fill: #9198a1;
 }
 
-.timeline{
+.timeline2{
     fill: #9198a1;
 }
 
-.timeline::after{
+.timeline2::after{
     background-color: #9198a1;
     bottom: 12px;
     content: '';
