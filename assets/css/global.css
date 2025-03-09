@@ -105,7 +105,6 @@ section {
     padding: 3%;
     background: var(--bg-degrade);
     display: none;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
   }
