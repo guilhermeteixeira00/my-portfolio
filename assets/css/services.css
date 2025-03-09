@@ -5,11 +5,11 @@
 .servicos-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  gap: 10rem;
 }
 .servicos-box {
   background-color: var(--degrade);
-  height: 550px;
+  height: 500px;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.3s ease;
@@ -73,13 +73,16 @@
   bottom: 0px;
 }
 .imginfotl {
-  width: 40%;
+  width: 100%;
   height: 100%;
+  border-radius: 0 0 0 20px;
 }
 .imginfotr {
-  width: 33.6%;
+  width: 100%;
   height: 100%;
+  border-radius: 0 0 20px 0;
 }
+
 .servicos-imgloading {
   position: absolute;
   width: 100%;
