@@ -54,6 +54,13 @@ span {
 .achievements:hover > img {
   width: 80px;
 }
+.achievements img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 7px var(--main-color));
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+}
+
 .inicio-container p {
   font-size: 1.8rem;
   font-weight: 500;
@@ -71,13 +78,14 @@ span {
   border-radius: 50%;
   color: var(--main-color);
   margin: 3rem 1.5rem 3rem 0;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
 }
 .social-icon a:hover {
   color: snow;
   transform: scale(1.3) translateY(-5px);
   background: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
+  text-decoration: none;
 }
 .btn {
   display: inline-block;
@@ -97,6 +105,7 @@ span {
   background-color: var(--main-color);
   color: var(--text-color);
   box-shadow: 0 0 25px var(--main-color);
+  text-decoration: none;
 }
 .typing-text {
   font-size: 34px;

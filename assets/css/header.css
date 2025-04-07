@@ -32,6 +32,7 @@ nav a{
 nav a:hover, nav a.active{
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
+    text-decoration: none;
 }
 #openmenu{
     font-size: 3.6rem;
