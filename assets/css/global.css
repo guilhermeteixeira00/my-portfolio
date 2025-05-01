@@ -113,11 +113,6 @@ section {
   100% { transform: rotate(360deg); }
 }
 
-#conteudo {
-  display: none;
-  font-family: 'Segoe UI', sans-serif;
-}
-
 #loader-text {
   margin-top: 20px;
   font-size: 1.5rem;
