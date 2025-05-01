@@ -42,13 +42,16 @@ body {
   overflow-x: hidden;
 }
 html::-webkit-scrollbar {
-  width: 0.8rem;
+  width: 1rem;
 }
 html::-webkit-scrollbar-track {
   background: var(--bg-color);
 }
 html::-webkit-scrollbar-thumb {
-  background: var(--main-color);
+  background: linear-gradient(135deg, #00558d, #45aef5); 
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); 
+  cursor: pointer;
 }
 
 section {
@@ -62,6 +65,65 @@ section {
   align-items: center;
   font-size: 100px;
   padding-bottom: 2rem;
+}
+
+/* Loading */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.spinner {
+  border: 6px solid #e0e0e0;
+  animation: bordertoprgb 2s linear infinite, spin 1s linear infinite;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes bordertoprgb {
+  0% { border-top: 6px solid var(--silver); }
+  25% { border-top: 6px solid var(--green); }
+  50% { border-top: 6px solid var(--yellow); }
+  75% { border-top: 6px solid var(--purple); }
+  100% { border-top: 6px solid var(--orange); }
+}
+@keyframes colorrgb {
+  0% { color: var(--silver); }
+  25% { color: var(--green); }
+  50% { color: var(--yellow); }
+  75% { color: var(--purple); }
+  100% { color: var(--orange); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#conteudo {
+  display: none;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#loader-text {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  animation: colorrgb 2s linear infinite;
+  opacity: 0.8;
 }
 
 /* responsividade */

@@ -11,46 +11,18 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <title>Portfolio Teixeira</title>
-  <style>
-    #loader {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      z-index: 9999;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .spinner {
-      border: 8px solid #f3f3f3;
-      border-top: 8px solid #3498db;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      animation: spin 1s linear infinite;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
+  <title>Portfólio Teixeira</title>
 </head>
 
 <body>
   <div id="loader">
     <div class="spinner"></div>
+    <div id="loader-text">Carregando, por favor aguarde...</div>
   </div>
 
   <div id="conteudo">
     <header class="header" id="header">
-      <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="1500">PortFolio</a>
+      <h1 class="logo" data-aos="zoom-in" data-aos-duration="1500">Portfólio</h1>
   
       <nav id="navbar">
         <a href="#inicio" class="active" id="inicioo" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"
@@ -133,8 +105,8 @@
                   data-view-component="true" class="octicon octicon-dot-fill">
                   <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
                 </svg>
-                <p><a href="https://github.com/CaduTM/my-portfolio/discussions/1#discussioncomment-11247536"
-                    target="_blank">CaduTM/my-portfolio#1</a>
+                <p><a href="https://github.com/CaduTM/my-Portfólio/discussions/1#discussioncomment-11247536"
+                    target="_blank">CaduTM/my-Portfólio#1</a>
                   · 2nd accepted answer</p>
               </div>
             </div>
@@ -219,8 +191,8 @@
                   data-view-component="true" class="octicon octicon-dot-fill">
                   <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
                 </svg>
-                <p><a href="https://github.com/guilhermeteixeira00/my-portfolio/pull/1"
-                    target="_blank">guilhermeteixeira00/my-portfolio#1</a> · 2nd pull request merged
+                <p><a href="https://github.com/guilhermeteixeira00/my-Portfólio/pull/1"
+                    target="_blank">guilhermeteixeira00/my-Portfólio#1</a> · 2nd pull request merged
                 </p>
               </div>
             </div>
@@ -264,8 +236,8 @@
                   data-view-component="true" class="octicon octicon-dot-fill">
                   <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
                 </svg>
-                <p><a href="https://github.com/guilhermeteixeira00/my-portfolio/pull/2"
-                    target="_blank">guilhermeteixeira00/my-portfolio#2</a>· Closed within 5 minutes of opening
+                <p><a href="https://github.com/guilhermeteixeira00/my-Portfólio/pull/2"
+                    target="_blank">guilhermeteixeira00/my-Portfólio#2</a>· Closed within 5 minutes of opening
                 </p>
               </div>
             </div>
@@ -684,14 +656,9 @@
   <script src="./assets/js/menu.js"></script>
   <script src="./assets/js/switchmodes.js"></script>
   <script src="./assets/js/contato.js"></script>
-  <script src="./assets/js/blockdevtools.js"></script>
+  <!-- <script src="./assets/js/blockdevtools.js"></script> -->
+  <script src="./assets/js/load.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    window.addEventListener('load', function () {
-      document.getElementById('loader').style.display = 'none';
-      document.getElementById('conteudo').style.display = 'block';
-    });
-  </script>
   <script>
     AOS.init({ offset: 0 });
   </script>

@@ -9,7 +9,7 @@
 }
 .servicos-box {
   background-color: var(--degrade);
-  height: 500px;
+  height: 550px;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.3s ease;
