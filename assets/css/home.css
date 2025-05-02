@@ -4,6 +4,21 @@
   align-items: center;
   gap: 8rem;
 }
+.inicio-container .blurmain{
+  padding: 3rem;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  animation: colorborder 5s ease infinite;
+}
+
+@keyframes colorborder {
+  0% { border: 1px solid var(--border-color-one); }
+  25% { border: 1px solid var(--border-color-two); }
+  50% { border: 1px solid var(--border-color-one); }
+  75% { border: 1px solid var(--border-color-two); }
+  100% { border: 1px solid var(--border-color-one); }
+}
+
 .inicio .inicio-container h1 {
   font-size: 6rem;
   font-weight: 700;
@@ -123,31 +138,52 @@ span {
 }
 .typing-text span::before {
   content: "Software Dev.";
-  color: var(--second-color);
+  color: transparent;
   font-weight: bolder;
   text-shadow: var(--text-shadow);
   animation: words 20s infinite;
 }
+
 @keyframes words {
-  0%,
-  20% {
+  0%, 15% {
     content: "Full Stack";
     color: var(--green);
   }
-  21%,
-  40% {
+  16%, 20% {
+    content: "Full Stack";
+    color: transparent;
+  }
+  21%, 35% {
     content: "Software Dev.";
     color: var(--yellow);
   }
-  41%,
-  60% {
+  36%, 40% {
+    content: "Software Dev.";
+    color: transparent;
+  }
+  41%, 55% {
     content: "Streamer.";
     color: var(--purple);
   }
-  61%,
-  80% {
+  56%, 60% {
+    content: "Streamer.";
+    color: transparent;
+  }
+  61%, 75% {
     content: "Tatuador.";
     color: var(--orange);
+  }
+  76%, 80% {
+    content: "Tatuador.";
+    color: transparent;
+  }
+  81%, 95% {
+    content: "Desenvolvedor.";
+    color: var(--silver);
+  }
+  96%, 100% {
+    content: "Desenvolvedor.";
+    color: transparent;
   }
 }
 .typing-text span::after {

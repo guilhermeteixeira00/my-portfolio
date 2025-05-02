@@ -9,7 +9,8 @@
     justify-content: space-between;
     align-items: center;
     z-index: 4;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 .logo{
     font-size: 3rem;

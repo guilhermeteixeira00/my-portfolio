@@ -311,6 +311,12 @@ section {
   .achievements:hover > img {
     width: 80px;
   }
+  .inicio-container .blurmain{
+    padding: 1.2rem;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    animation: colorborder 5s ease infinite;
+  }
   .inicio-container p {
     font-size: 1.8rem;
     font-weight: 500;
